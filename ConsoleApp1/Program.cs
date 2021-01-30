@@ -34,6 +34,7 @@ namespace ConsoleApp1
                     {
                         while (vzdox < 10)
                         {
+                            i
                             System.Threading.Thread.Sleep(4700);
                             Console.Clear();
                             Console.WriteLine($"{ch}ч {d}д {dol}дл {vzdox}вз");
