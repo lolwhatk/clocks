@@ -37,7 +37,7 @@ namespace ConsoleApp1
                             System.Threading.Thread.Sleep(4700);
                             Console.Clear();
                             Console.WriteLine($"{ch}ч {d}д {dol}дл {vzdox}вз");
-                            int gg;
+                            
                             vzdox++;
                         }
                         dol++;
