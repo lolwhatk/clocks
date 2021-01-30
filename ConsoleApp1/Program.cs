@@ -9,8 +9,8 @@ namespace ConsoleApp1
             DateTime date1 = DateTime.Now;
             double k = date1.Second;
             double allmin = date1.Hour * 60 + date1.Minute + k / 60;
-int fff;
-            int ch = (int)(allmin / 78);
+
+            int ch = allmin / 78;
 
             double r = allmin - ch * 78;
             int d = (int)(r / 7.8);
